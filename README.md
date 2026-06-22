@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="assets/logo.svg" alt="Project logo" height="180">
+</p>
+
 # mp-dl
 Инструмент для загрузки и распаковки Minecraft сборок по ссылке.
 
