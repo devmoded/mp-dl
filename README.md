@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/logo.svg" alt="Project logo" height="180">
+    <img src="assets/logo-text.png" alt="Project logo" height="180">
 </p>
 
 # mp-dl
