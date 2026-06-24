@@ -1,4 +1,5 @@
 use clap::{Parser};
+use log::{info};
 
 #[derive(Parser)]
 struct Cli {
@@ -9,8 +10,10 @@ struct Cli {
 }
 
 pub fn run_cli() {
+    env_logger::builder().filter_level(log::LevelFilter::Info).init();
+
     let cli = Cli::parse();
 
-    println!("URL: {}", cli.url);
-    println!("Path: {}", cli.path);
+    info!("URL: {}", cli.url);
+    info!("Path: {}", cli.path);
 }
